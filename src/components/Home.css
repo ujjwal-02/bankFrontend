@@ -1,0 +1,114 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+  background-color: white;
+}
+
+/* .container {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+} */
+
+.flashpay-text {
+  color: white;
+}
+
+.navbar {
+  background:local;
+  color: white;
+}
+
+.header {
+  font-size: 48px;
+  margin-top: 20px;
+}
+
+.navbar a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.navbar .btn-register {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  margin-right: 10px;
+}
+
+.navbar .btn-register:hover {
+  background-color: hsl(211, 100%, 35%);
+}
+
+.navbar .btn-login {
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+.navbar .btn-login:hover {
+  background-color: #1d9238;
+}
+
+.card {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  color: black;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.arrow-buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.white {
+  color: white;
+  list-style-type: none;
+}
+
+.white a {
+  color: white;
+  text-decoration: none;
+}
+
+.white a:hover {
+  text-decoration: underline;
+}
+
+.bottom-footer {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

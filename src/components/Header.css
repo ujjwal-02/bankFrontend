@@ -1,0 +1,22 @@
+/* Header.css */
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    min-height: 100vh;
+  }
+  
+  .center-content {
+    text-align: center;
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  
+  .centered-components {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+  }
+  

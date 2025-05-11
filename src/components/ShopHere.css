@@ -1,0 +1,70 @@
+/* Add these styles to your Home.css or relevant stylesheet */
+
+/* .shop-here-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .shop-here-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  .shop-here-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .shop-here-logo {
+    width: 80px; 
+    height: auto; 
+    margin: 0 10px;
+  }
+   */
+   /* Add these styles to your Home.css or relevant stylesheet */
+
+.shop-here-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%; /* Set a percentage width to make them equal in size */
+    height: 300px; /* Set a fixed height for all containers */
+    margin: 10px; /* Add some margin to separate containers */
+  }
+  
+  .shop-here-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .shop-here-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .shop-here-logo {
+    width: 80px; /* Set a fixed width for all logos */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    margin: 0 10px;
+  }
+  
+  
+  
